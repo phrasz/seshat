@@ -1,0 +1,169 @@
+{
+   "name": "Seshat",
+   "children": [
+	{
+	   "name": "2013",
+	   "children": [
+		{
+		   "name": "04-31",
+		   "children": [
+			{
+			   "name": "++ Established the following for format:"
+			}
+			,
+			{
+			   "name": "-- Removed"
+			}
+			,
+			{
+			   "name": "++ Added/Working"
+			}
+			,
+			{
+			   "name": "== TO DO LIST"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-01",
+		   "children": [
+			{
+			   "name": "-- Removed residual code that wasn't working"
+			}
+			,
+			{
+			   "name": "++ Added first stab at parsing by segementing date to: YYYY MM-DD"
+			}
+			,
+			{
+			   "name": "== Determine how many points are needed per log entry"
+			}
+			,
+			{
+			   "name": "== Add logic to start outputting JSON of parsed content"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-07",
+		   "children": [
+			{
+			   "name": "++ Started developemet of Seshat"
+			}
+			,
+			{
+			   "name": "++ Created barebone shell script program, leveraging on base code for Seshat"
+			}
+			,
+			{
+			   "name": "== Continue coding to base tool"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-08",
+		   "children": [
+			{
+			   "name": "++ Added ability to load file and began adding parsing logic"
+			}
+			,
+			{
+			   "name": "== Add logic needed to properly parse/output file"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-12",
+		   "children": [
+			{
+			   "name": "== Need to find a way to sed in a bash script"
+			}
+			,
+			{
+			   "name": "== - This will allow for a find and replace method"
+			}
+			,
+			{
+			   "name": "== - Also, and insert at line # method"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-16",
+		   "children": [
+			{
+			   "name": "-- Removed the saving of information to external file, then to only reload it into memory"
+			}
+			,
+			{
+			   "name": "++ Added new functions to save data being parsed directly into arrays"
+			}
+			,
+			{
+			   "name": "== Need to complete for loop by determining where you are in the loop"
+			}
+			,
+			{
+			   "name": "== Detemine JSON structure for easy output of data to a json file, or D3"
+			}
+			,
+			{
+			   "name": "++ FOUND BING BOX ERROR! It was /bin/sh vs /bin/bash"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-17",
+		   "children": [
+			{
+			   "name": "++ Added JSON output"
+			}
+			,
+			{
+			   "name": "++ Created base HTML template, and leveraging to fill needs"
+			}
+			,
+			{
+			   "name": "== FINALIZE code from screen... into correct JSON outputs"
+			}
+		   ]
+		}
+		,
+		{
+		   "name": "05-19",
+		   "children": [
+			{
+			   "name": "++ Finished code to a 'stable' build"
+			}
+			,
+			{
+			   "name": "-- Removed sed. Replaced with awk commands"
+			}
+			,
+			{
+			   "name": "== Make the script recursive functions vs for loops. Ha."
+			}
+			,
+			{
+			   "name": "== -It could be possible SINCE the JSON structure is calling similar 'child nodes' for the duration of execution"
+			}
+			,
+			{
+			   "name": "== FIX scrolling issue"
+			}
+			,
+			{
+			   "name": "== -Add bars/wheels"
+			}
+		   ]
+		}
+	]
+}
+]
+}

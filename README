@@ -1,0 +1,58 @@
+~~ Seshat
+~v 1.0a
+~d A BASH script to create a D3-powered, exapanding-tree visual logfile
+
+:: 2013-05-07
+++ Started developemet of Seshat
+++ Created barebone shell script program, leveraging on base code for Seshat
+== Continue coding to base tool
+|| 2013-05-07
+
+:: 2013-05-08
+++ Added ability to load file and began adding parsing logic
+== Add logic needed to properly parse/output file
+|| 2013-05-08
+
+:: 2013-05-01
+-- Removed residual code that wasn't working
+++ Added first stab at parsing by segementing date to: YYYY MM-DD
+== Determine how many points are needed per log entry
+== Add logic to start outputting JSON of parsed content
+|| 2013-05-01
+
+:: 2013-04-31
+++ Established the following for format:
+	-- Removed 
+	++ Added/Working
+	== TO DO LIST
+|| 2013-04-31
+
+:: 2013-05-12
+== Need to find a way to sed in a bash script
+== - This will allow for a find and replace method
+== - Also, and insert at line # method
+|| 2013-05-12
+
+:: 2013-05-16
+-- Removed the saving of information to external file, then to only reload it into memory
+++ Added new "functions" to save data being parsed directly into arrays
+== Need to complete for loop by determining where you are in the loop 
+== Detemine JSON structure for easy output of data to a json file, or D3
+++ FOUND BING BOX ERROR! It was /bin/sh vs /bin/bash
+|| 2013-05-16
+
+:: 2013-05-17
+++ Added JSON output
+++ Created base HTML template, and leveraging to fill needs
+== FINALIZE code from screen... into correct JSON outputs
+|| 2013-05-17
+
+:: 2013-05-19
+++ Finished code to a 'stable' build
+-- Removed sed. Replaced with awk commands
+== Make the script recursive functions vs for loops. Ha.
+== -It could be possible SINCE the JSON structure is calling similar 'child nodes' for the duration of execution
+== FIX scrolling issue
+== -Add bars/wheels
+|| 2013-05-19
+
